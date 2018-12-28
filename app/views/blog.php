@@ -29,7 +29,7 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Works</a></li>
-        <li class="nav-item"><a class="nav-link navActive" href="blog.html">Blogs</a></li>
+        <li class="nav-item"><a class="nav-link navActive" href="<?php echo BASE_URL.'Blog'; ?>">Blogs</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
       </ul>
 

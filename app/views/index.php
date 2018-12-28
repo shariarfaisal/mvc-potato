@@ -19,7 +19,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link navActive" href=" <?php echo BASE_URL; ?> ">Home</a></li>
+        <li class="nav-item"><a class="nav-link navActive" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
         <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL.'Blog'; ?>">Blogs</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
@@ -103,6 +103,101 @@
       </div>
     </div>
   </section>
+  <section id="member" class="mb-5">
+    <div class="container">
+      <h3 class=" text-center">Meet The Members</h3>
+      <div class="row">
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">
+              <h5>Takdirul Islam Shishir</h5>
+              <p>Web & UI/UX Designer</p>
+              <div class="row justify-content-center" >
+                <div class="col-6 d-flex flex-row justify-content-between">
+                  <div class="">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div><div class="">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">
+              <h5>Takdirul Islam Shishir</h5>
+              <p>Web & UI/UX Designer</p>
+              <div class="row justify-content-center" >
+                <div class="col-6 d-flex flex-row justify-content-between">
+                  <div class="">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div><div class="">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">
+              <h5>Takdirul Islam Shishir</h5>
+              <p>Web & UI/UX Designer</p>
+              <div class="row justify-content-center" >
+                <div class="col-6 d-flex flex-row justify-content-between">
+                  <div class="">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div><div class="">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">
+              <h5>Takdirul Islam Shishir</h5>
+              <p>Web & UI/UX Designer</p>
+              <div class="row justify-content-center" >
+                <div class="col-6 d-flex flex-row justify-content-between">
+                  <div class="">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div><div class="">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
 </section>
 <footer id='footer'class="">
   <p class="text-center text-muted">Potato Squad &copy; 2018</p>
