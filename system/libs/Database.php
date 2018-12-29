@@ -36,7 +36,7 @@
           $updatekeys .= "$key=:$key";
         }
         $updatekeys=rtrim($updatekeys,',');
-        $sql="update $table set title=:title,name=:name where $cond";
+        $sql="update $table set $updatekeys where $cond";
         $stmt= $this->prepare($sql);
 
        foreach($data as $key => $value){
