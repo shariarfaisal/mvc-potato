@@ -20,9 +20,9 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link navActive" href="<?php echo BASE_URL; ?>">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
-        <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL.'Blog/home'; ?>">Blogs</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link navActive" href="works.html">Works</a></li>
+        <li class="nav-item"><a class="nav-link navActive" href="<?php echo BASE_URL.'Blog/home'; ?>">Blogs</a></li>
+        <li class="nav-item"><a class="nav-link navActive" href="#">Contact Us</a></li>
       </ul>
     </div>
   </div>
