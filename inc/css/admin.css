@@ -1,0 +1,42 @@
+body {
+  background: #E9EBEE !important;
+  font-family: inherit; }
+
+#navigation {
+  height: 40px;
+  background: #4267B2 !important; }
+
+#main {
+  min-height: 730px; }
+  #main .row .col-3 {
+    padding: 0;
+    border-right: 1px solid #c4c4c4c4;
+    border-left: 1px solid #c4c4c4c4;
+    border-bottom: 1px solid #c4c4c4c4;
+    min-height: 600px; }
+    #main .row .col-3 h4 a {
+      font-weight: 600;
+      text-decoration: none;
+      color: black; }
+    #main .row .col-3 ul li {
+      margin: 2px 0px;
+      padding: 0;
+      background: #dcdcdc; }
+      #main .row .col-3 ul li a {
+        color: #001486;
+        font-weight: 550; }
+    #main .row .col-3 ul .collapse ul li a {
+      font-weight: 500; }
+  #main .row .col-8 {
+    margin: 0;
+    padding-left: 0; }
+    #main .row .col-8 ol {
+      padding-bottom: 10px;
+      margin-left: 0;
+      border-bottom: 1px solid #c4c4c4c4; }
+    #main .row .col-8 .row .col-12 .card {
+      background: transparent; }
+    #main .row .col-8 .row .col-12 table {
+      border: 1px solid #c4c4c4c4;
+      box-shadow: 0px 0px 11px 1px #656565;
+      font-size: 14px; }
