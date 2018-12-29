@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="inc/css/bootstrap.css">
-  <link rel="stylesheet" href="inc/css/font-awesome.min.css">
-  <link rel="stylesheet" href="inc/css/style.css">
-  <title>Potato Squad</title>
-</head>
-<body>
-<!-- Navigation Var -->
-<nav id="navigation" class="navbar navbar-dark navbar-expand-md fixed-top">
-  <div class="container">
-    <a href="#" class="navbar-brand">Potato Squad</a>
-    <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" name="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link navActive" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
-        <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL.'Blog'; ?>">Blogs</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include 'header.php'; ?>
 <!--  Slider Section ...  -->
 <section id="content-home">
   <section id="about" class="text-center text-light">
@@ -37,12 +9,24 @@
       </div>
     </div>
   </section>
-  <section class="bg-light py-5 text-center">
+  <section class=" py-5 text-center">
     <div class="container">
       <div class="row">
-        <div class="col">
-          <h4 class="my-3">What we do?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique culpa odit beatae expedita voluptas! Quaerat dolore adipisci natus saepe autem temporibus dicta in eum optio? Labore consectetur, quisquam facere!</p>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="my-3">What we do?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique culpa odit beatae expedita voluptas! Quaerat dolore adipisci natus saepe autem temporibus dicta in eum optio? Labore consectetur, quisquam facere!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="my-3">What shall we do?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique culpa odit beatae expedita voluptas! Quaerat dolore adipisci natus saepe autem temporibus dicta in eum optio? Labore consectetur, quisquam facere!</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -132,8 +116,8 @@
           <div class="card text-center">
             <div class="card-body">
               <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">
-              <h5>Takdirul Islam Shishir</h5>
-              <p>Web & UI/UX Designer</p>
+              <h5>Sharia Emon Faisal</h5>
+              <p>Web Developer</p>
               <div class="row justify-content-center" >
                 <div class="col-6 d-flex flex-row justify-content-between">
                   <div class="">
@@ -153,8 +137,8 @@
           <div class="card text-center">
             <div class="card-body">
               <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">
-              <h5>Takdirul Islam Shishir</h5>
-              <p>Web & UI/UX Designer</p>
+              <h5>Robiul Islam Emon</h5>
+              <p>Graphice Designer</p>
               <div class="row justify-content-center" >
                 <div class="col-6 d-flex flex-row justify-content-between">
                   <div class="">
@@ -174,8 +158,8 @@
           <div class="card text-center">
             <div class="card-body">
               <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">
-              <h5>Takdirul Islam Shishir</h5>
-              <p>Web & UI/UX Designer</p>
+              <h5>Asheke Elahi</h5>
+              <p>Android Developer</p>
               <div class="row justify-content-center" >
                 <div class="col-6 d-flex flex-row justify-content-between">
                   <div class="">
@@ -199,11 +183,4 @@
 
 
 </section>
-<footer id='footer'class="">
-  <p class="text-center text-muted">Potato Squad &copy; 2018</p>
-</footer>
-<script src="inc/js/jquery.min.js"></script>
-<script src="inc/js/popper.min.js"></script>
-<script src="inc/js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php include 'footer.php'; ?>

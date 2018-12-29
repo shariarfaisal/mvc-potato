@@ -82,11 +82,13 @@ body {
       font-size: 16px;
       font-weight: 500;
       margin-top: 20px; }
-    #content-blog #left-section ul li a {
-      color: #001486;
-      font-weight: 450; }
-    #content-blog #left-section ul li a:hover {
-      text-decoration: underline; }
+    #content-blog #left-section ul {
+      width: 150px; }
+      #content-blog #left-section ul li a {
+        color: #001486;
+        font-weight: 450; }
+      #content-blog #left-section ul li a:hover {
+        text-decoration: underline; }
   #content-blog #middle-section {
     min-height: 700px;
     display: block;
@@ -121,6 +123,11 @@ body {
         font-weight: 450; }
       #content-blog #right-section #latest-post ul li a:hover {
         text-decoration: underline; }
+
+#contact {
+  margin-top: 39px; }
+  #contact input[type='submit'] {
+    width: 80px; }
 
 #footer p {
   font-size: 14px;
