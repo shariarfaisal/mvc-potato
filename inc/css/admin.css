@@ -6,6 +6,23 @@ body {
   height: 40px;
   background: #4267B2 !important; }
 
+#login {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%; }
+  #login .card .card-header h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 550; }
+  #login .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0; }
+  #login input[type='submit'] {
+    width: 80px; }
+
 #main {
   min-height: 730px; }
   #main .row .col-3 {

@@ -2,10 +2,15 @@
 
   class Admin extends DController{
 
-    function __construct()
-    {
-    parent::__construct();
+    function __construct(){
+      Session::check();
+        parent::__construct();
     }
+
+
+
+
+
 
     public function home(){
       $this->index();
@@ -37,8 +42,11 @@
     }
 
 
-
-
+      public function logout(){
+        Session::init();
+        Session::destroy();
+        header("Location:".BASE_URL."Login/home");
+      }
 
 
   }
