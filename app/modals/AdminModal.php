@@ -6,26 +6,22 @@
       parent::__construct();
     }
 
-    public function addCategory($table,$data){
+    public function insert($table,$data){
       return $this->db->insert($table,$data);
     }
 
-    public function getAllCategory($table){
+    public function getAll($table){
       $sql = "SELECT * FROM $table";
       return $this->db->select($sql);
     }
 
-    public function updateCat($table,$data,$cond){
+    public function update($table,$data,$cond){
       $this->db->update($table,$data,$cond);
     }
 
-
-
-
-
-
-
-
+    public function delete($table,$cond){
+      $this->db->delete($table,$cond);
+    }
 
 
 

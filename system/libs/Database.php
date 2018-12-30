@@ -33,7 +33,7 @@
       public function update($table,$data,$cond){
         $updatekeys=NULL;
         foreach ($data as $key => $value) {
-          $updatekeys .= "$key=:$key";
+          $updatekeys .= "$key=:$key,";
         }
         $updatekeys=rtrim($updatekeys,',');
         $sql="update $table set $updatekeys where $cond";
@@ -45,6 +45,8 @@
         return $stmt->execute();
       }
 
+      
+/*
       public function updatePost($table,$data,$cond){
         $updatekeys=NULL;
         foreach ($data as $key => $value) {
@@ -58,7 +60,8 @@
           $stmt->bindValue(':'.$key,$value);
         }
         return $stmt->execute();
-      }
+      }*/
+
 
       public function delete($table,$cond){
         $sql="delete from $table where $cond";

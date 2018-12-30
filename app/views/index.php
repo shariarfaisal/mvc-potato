@@ -65,7 +65,7 @@
   foreach ($member as $key => $value) {
     ?>
 
-    <div class="col-3">
+    <div class="col-3 mb-4">
       <div class="card text-center">
         <div class="card-body">
           <img src="img/afofo.jpg" class="img-fluid rounded-circle card-img-top" alt="">

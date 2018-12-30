@@ -39,7 +39,7 @@
                     <td><?php echo $value['cat_name']; ?></td>
                     <td>
                       <a class="mx-3" data-toggle="modal" data-target="#editCategory<?php echo $value['cat_id'];?>" href="<?php echo BASE_URL.'Admin/catEdit/'.$value['cat_id'];; ?>"><i class="fa fa-pencil-square-o "></i></a>
-                      <a class="mx-3" href="<?php echo BASE_URL.'Admin/catDelete/'.$value['cat_id'];; ?>"><i class="fa fa-trash-o  text-danger"></i></a>
+                      <a class="mx-3" onclick="window.confirm('Are you sute you sure you want to deltee this category?')" href="<?php echo BASE_URL.'Admin/catDelete/'.$value['cat_id'];; ?>"><i class="fa fa-trash-o  text-danger"></i></a>
                     </td>
                   </tr>
 
