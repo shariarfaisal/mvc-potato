@@ -34,7 +34,8 @@
             <div class="collapse" id="list2">
               <ul class="nav flex-column">
                 <li class="nav-item pl-3"><a href="<?php echo BASE_URL.'Admin/category'; ?>" class="nav-link">Category</a></li>
-                <li class="nav-item pl-3"><a href="<?php echo BASE_URL.'Admin/home'; ?>" class="nav-link">Post</a></li>
+                <li class="nav-item pl-3"><a href="<?php echo BASE_URL.'Admin/addpost'; ?>" class="nav-link">Add Post</a></li>
+                <li class="nav-item pl-3"><a href="<?php echo BASE_URL.'Admin/posts'; ?>" class="nav-link">Posts</a></li>
               </ul>
             </div>
           <li class="nav-item"><a href="" data-toggle="collapse" data-target="#list3" class="nav-link">Services</a></li>

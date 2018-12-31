@@ -170,8 +170,42 @@
     }
 
 
+// Add post start from here ...
 
+  public function addpost(){
+    $this->load->view('admin/header');
+    $table = "blog_category";
+    $adminModal = $this->load->modal('AdminModal');
+    $data['category'] = $adminModal->getAll($table);
+    $this->load->view('admin/addpost',$data);
+    $this->load->view('admin/footer');
+  }
 
+  public function insertPost(){
+    $table = "blog_post";
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+    $author = $_POST['author'];
+    $category = $_POST['category'];
+    $data = array(
+      'post_title' => $title,
+      'post_content' => $content,
+      'post_author' => $author,
+      'post_cat' => $category
+    );
+    $adminModal = $this->load->modal('AdminModal');
+    $adminModal->insert($table,$data);
+    header("Location:".BASE_URL."Admin/addpost");
+  }
+
+  public function posts(){
+    $this->load->view('admin/header');
+    $table = "blog_post";
+    $adminModal = $this->load->modal('AdminModal');
+    $data['posts'] = $adminModal->getAll($table);
+    $this->load->view('admin/posts',$data);
+    $this->load->view('admin/footer');
+  }
 
 
 

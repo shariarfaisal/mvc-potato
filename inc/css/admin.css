@@ -57,3 +57,13 @@ body {
       border: 1px solid #c4c4c4c4;
       box-shadow: 0px 0px 11px 1px #656565;
       font-size: 14px; }
+    #main .row .col-8 #accordion .col .card .card-header {
+      padding: 5px 10px; }
+      #main .row .col-8 #accordion .col .card .card-header h3 a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        margin: 0;
+        padding: 0; }
+      #main .row .col-8 #accordion .col .card .card-header h3 a:hover {
+        text-decoration: underline; }
