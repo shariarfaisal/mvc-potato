@@ -40,7 +40,7 @@
     }
 
     public function singlePost($id){
-      $this->load->view('header',$data);
+      $this->load->view('header');
       $data = array();
       $postTable = 'blog_post';
       $catTable = 'blog_category';
@@ -66,7 +66,6 @@
       $this->load->view('blog/postDetails',$data);
       $this->load->view('footer');
     }
-
 
 
 

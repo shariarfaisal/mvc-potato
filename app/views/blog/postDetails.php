@@ -24,7 +24,8 @@
 ?>
               <div class="card mb-2">
                 <div class="card-body">
-                  <h5><a href="<?php echo BASE_URL.'Blog/singlePost/'.$value['post_id']; ?>"><?php echo $value['post_title']; ?></h5>
+                  <h5><a href="<?php echo BASE_URL.'Blog/singlePost/'.$value['post_id']; ?>"><?php echo $value['post_title']; ?></a></h5>
+                  <small class="float-right text-muted"><?php echo $value['post_time']; ?></small>
                   <small class="text-muted"><strong>Author :</strong> <a href="" class="text-muted"><?php echo $value['post_author']; ?></a></small>
                   <hr>
                   <p><?php echo $value['post_content']; ?></p>

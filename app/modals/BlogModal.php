@@ -17,6 +17,8 @@
       return $this->db->select($sql);
     }
 
+
+
     public function latestPost($table,$limit){
       $sql = "SELECT * FROM $table order by post_id desc limit $limit";
       return $this->db->select($sql);

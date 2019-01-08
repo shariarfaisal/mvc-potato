@@ -16,25 +16,25 @@
       </div>
       <div id="middle-section" class="col-12 col-md-6 clearfix">
 
-
-
-
         <?php
           foreach($blogPost as $key => $value){
 ?>
               <div class="card mb-2">
                 <div class="card-body">
-                  <h5><a href="<?php echo BASE_URL.'Blog/singlePost/'.$value['post_id']; ?>"><?php echo $value['post_title']; ?></h5>
+                  <h5><a href="<?php echo BASE_URL.'Blog/singlePost/'.$value['post_id']; ?>"><?php echo $value['post_title']; ?></a></h5>
+                  <small class="float-right text-muted"><?php echo $value['post_time']; ?></small>
                   <small class="text-muted"><strong>Author :</strong> <a href="" class="text-muted"><?php echo $value['post_author']; ?></a></small>
+
                   <hr>
                   <p><?php echo Helper::cutPost($value['post_content']); ?></p>
                   <a href="<?php echo BASE_URL.'Blog/fullSinglePost/'.$value['post_id']; ?>" class="btn btn-sm text-primary">more</a>
                 </div>
               </div>
+
 <?php
           }
          ?>
-
+<button  type="button" class="btn btn-sm btn-secondary btn-block" name="button">See More Post</button>
 
       </div>
       <div id="right-section" class="col-md-3 clearfix">

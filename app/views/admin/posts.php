@@ -31,7 +31,7 @@ foreach ($posts as $key => $value) {
         <small class="text-muted"><strong>Author: </strong><?php echo $value['post_author']; ?></small>
         <p class="my-3 lead" style="font-size: 18px;"><?php echo $value['post_content']; ?></p>
 
-        <a href="#" class="btn btn-sm btn-primary" >edit</a>
+        <button href="#" data-toggle="modal" data-target="#post<?php echo $value['post_id']; ?>" class="btn btn-sm btn-primary" >edit</button>
         <a href="#" class="btn btn-sm btn-danger">delete</a>
       </div>
     </div>
@@ -40,8 +40,6 @@ foreach ($posts as $key => $value) {
   <?php
 }
  ?>
-
-
 
 
 
